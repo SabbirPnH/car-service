@@ -1,0 +1,14 @@
+.smooth-bounce {
+    z-index: 100;
+    animation: bounce 1.9s infinite ease-in-out;
+  }
+  
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(-10%);
+    }
+    50% {
+      transform: translateY(0);
+    }
+  }
+  
