@@ -72,7 +72,7 @@ export default function Footer() {
                 <h6 className="text-lg font-medium text-white mb-7 max-md:text-center">
                   Quick Links
                 </h6>
-                <ul className="flex flex-col max-md:items-center gap-6">
+                <ul className="flex flex-col max-md:items-center pl-0 gap-6">
                   <li className="transition-all duration-300 flex items-center left-0 hover:left-1.5 relative">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -88,7 +88,7 @@ export default function Footer() {
                     </svg>
                     <a
                       href="javascript:void(0)"
-                      className="text-base font-normal text-gray-600 transition-all duration-300 hover:text-[#F5004F] focus-within:outline-0 focus-within:text-[#F5004F]"
+                      className="text-base no-underline font-normal text-gray-600 transition-all duration-300 hover:text-[#F5004F] focus-within:outline-0 focus-within:text-[#F5004F]"
                     >
                       Home
                     </a>
@@ -108,7 +108,7 @@ export default function Footer() {
                     </svg>
                     <a
                       href="javascript:void(0)"
-                      className="text-base font-normal text-gray-600 transition-all duration-300 hover:text-[#F5004F] focus-within:outline-0 focus-within:text-[#F5004F]"
+                      className="text-base no-underline font-normal text-gray-600 transition-all duration-300 hover:text-[#F5004F] focus-within:outline-0 focus-within:text-[#F5004F]"
                     >
                       About
                     </a>
@@ -128,7 +128,7 @@ export default function Footer() {
                     </svg>
                     <a
                       href="javascript:void(0)"
-                      className="text-base font-normal text-gray-600 transition-all duration-300 hover:text-[#F5004F] focus-within:outline-0 focus-within:text-[#F5004F]"
+                      className="text-base no-underline font-normal text-gray-600 transition-all duration-300 hover:text-[#F5004F] focus-within:outline-0 focus-within:text-[#F5004F]"
                     >
                       Shop
                     </a>
@@ -148,7 +148,7 @@ export default function Footer() {
                     </svg>
                     <a
                       href="javascript:void(0)"
-                      className="text-base font-normal text-gray-600 transition-all duration-300 hover:text-[#F5004F] focus-within:outline-0 focus-within:text-[#F5004F]"
+                      className="text-base font-normal text-gray-600 transition-all duration-300 hover:text-[#F5004F] focus-within:outline-0 no-underline focus-within:text-[#F5004F]"
                     >
                       Blog
                     </a>
@@ -168,7 +168,7 @@ export default function Footer() {
                     </svg>
                     <a
                       href="javascript:void(0)"
-                      className="text-base font-normal text-gray-600 transition-all duration-300 hover:text-[#F5004F] focus-within:outline-0 focus-within:text-[#F5004F]"
+                      className="text-base no-underline font-normal text-gray-600 transition-all duration-300 hover:text-[#F5004F] focus-within:outline-0 focus-within:text-[#F5004F]"
                     >
                       Contact
                     </a>
@@ -195,7 +195,7 @@ export default function Footer() {
                     </svg>
                     <a
                       href="javascript:void(0)"
-                      className="text-base font-normal text-gray-600 transition-all duration-300 hover:text-[#F5004F] focus-within:outline-0 focus-within:text-[#F5004F]"
+                      className="text-base no-underline font-normal text-gray-600 transition-all duration-300 hover:text-[#F5004F] focus-within:outline-0 focus-within:text-[#F5004F]"
                     >
                       Drink
                     </a>
@@ -215,7 +215,7 @@ export default function Footer() {
                     </svg>
                     <a
                       href="javascript:void(0)"
-                      className="text-base font-normal text-gray-600 transition-all duration-300 hover:text-[#F5004F] focus-within:outline-0 focus-within:text-[#F5004F]"
+                      className="text-base no-underline font-normal text-gray-600 transition-all duration-300 hover:text-[#F5004F] focus-within:outline-0 focus-within:text-[#F5004F]"
                     >
                       Pear
                     </a>
@@ -235,7 +235,7 @@ export default function Footer() {
                     </svg>
                     <a
                       href="javascript:void(0)"
-                      className="text-base font-normal text-gray-600 transition-all duration-300 hover:text-[#F5004F] focus-within:outline-0 focus-within:text-[#F5004F]"
+                      className="text-base no-underline font-normal text-gray-600 transition-all duration-300 hover:text-[#F5004F] focus-within:outline-0 focus-within:text-[#F5004F]"
                     >
                       Juice
                     </a>
@@ -255,7 +255,7 @@ export default function Footer() {
                     </svg>
                     <a
                       href="javascript:void(0)"
-                      className="text-base font-normal text-gray-600 transition-all duration-300 hover:text-[#F5004F] focus-within:outline-0 focus-within:text-[#F5004F]"
+                      className="text-base no-underline font-normal text-gray-600 transition-all duration-300 hover:text-[#F5004F] focus-within:outline-0 focus-within:text-[#F5004F]"
                     >
                       {" "}
                       Taste Capsicum
@@ -276,7 +276,7 @@ export default function Footer() {
                     </svg>
                     <a
                       href="javascript:void(0)"
-                      className="text-base font-normal text-gray-600 transition-all duration-300 hover:text-[#F5004F] focus-within:outline-0 focus-within:text-[#F5004F]"
+                      className="text-base no-underline font-normal text-gray-600 transition-all duration-300 hover:text-[#F5004F] focus-within:outline-0 focus-within:text-[#F5004F]"
                     >
                       {" "}
                       Bokchoy
@@ -285,7 +285,7 @@ export default function Footer() {
                 </ul>
               </div>
               <div className="block">
-                <h6 className="text-lg font-medium text-white max-md:text-center mb-7">
+                <h6 className="text-lg no-underline font-medium text-white max-md:text-center mb-7">
                   My Accounts
                 </h6>
                 <ul className="flex flex-col max-md:items-center gap-6">
@@ -304,7 +304,7 @@ export default function Footer() {
                     </svg>
                     <a
                       href="javascript:void(0)"
-                      className="text-base font-normal text-gray-600 transition-all duration-300 hover:text-[#F5004F] focus-within:outline-0 focus-within:text-[#F5004F]"
+                      className="text-base no-underline font-normal text-gray-600 transition-all duration-300 hover:text-[#F5004F] focus-within:outline-0 focus-within:text-[#F5004F]"
                     >
                       My Orders
                     </a>
@@ -324,7 +324,7 @@ export default function Footer() {
                     </svg>
                     <a
                       href="javascript:void(0)"
-                      className="text-base font-normal text-gray-600 transition-all duration-300 hover:text-[#F5004F] focus-within:outline-0 focus-within:text-[#F5004F]"
+                      className="text-base no-underline font-normal text-gray-600 transition-all duration-300 hover:text-[#F5004F] focus-within:outline-0 focus-within:text-[#F5004F]"
                     >
                       My Credit Slips
                     </a>
@@ -344,7 +344,7 @@ export default function Footer() {
                     </svg>
                     <a
                       href="javascript:void(0)"
-                      className="text-base font-normal text-gray-600 transition-all duration-300 hover:text-[#F5004F] focus-within:outline-0 focus-within:text-[#F5004F]"
+                      className="text-base font-normal no-underline text-gray-600 transition-all duration-300 hover:text-[#F5004F] focus-within:outline-0 focus-within:text-[#F5004F]"
                     >
                       My Address
                     </a>
@@ -364,7 +364,7 @@ export default function Footer() {
                     </svg>
                     <a
                       href="javascript:void(0)"
-                      className="text-base font-normal text-gray-600 transition-all duration-300 hover:text-[#F5004F] focus-within:outline-0 focus-within:text-[#F5004F]"
+                      className="text-base font-normal no-underline text-gray-600 transition-all duration-300 hover:text-[#F5004F] focus-within:outline-0 focus-within:text-[#F5004F]"
                     >
                       My Personal Info Guide
                     </a>
@@ -383,8 +383,8 @@ export default function Footer() {
                       <path d="M9 18l6-6-6-6" />
                     </svg>
                     <a
-                      href="javascript:void(0)"
-                      className="text-base font-normal text-gray-600 transition-all duration-300 hover:text-[#F5004F] focus-within:outline-0 focus-within:text-[#F5004F]"
+                      href="javascript:void(0) "
+                      className="text-base font-normal no-underline text-gray-600 transition-all duration-300 hover:text-[#F5004F] focus-within:outline-0 focus-within:text-[#F5004F]"
                     >
                       My Contact Guide
                     </a>
@@ -523,7 +523,7 @@ export default function Footer() {
         </div>
         <div className="flex items-center justify-center pt-7">
           <p className="text-sm font-normal text-gray-500">
-            <a href="https://pagedone.io/">© Veganfood.</a> 2024, All rights
+            <a className=" no-underline text-gray-500" href="#">© Veganfood.</a> 2024, All rights
             reserved.{" "}
             <span className="cursor-pointer hover:text-[#F5004F]">
               Privacy Policy.

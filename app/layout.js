@@ -1,7 +1,7 @@
 import { Poppins } from 'next/font/google';
 import "./globals.css";
 import Navigation from "./component/Navbar";
-import SmothScroling from './component/SmothScroll';
+// import SmothScroling from './component/SmothScroll';
 import Footer from './component/Footer';
 const poppins = Poppins({
   subsets: ['latin'],
@@ -21,9 +21,9 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${poppins.variable}`}>
         <Navigation/>
-        <SmothScroling>
+      
         {children}
-        </SmothScroling>
+      
         <Footer/>
       </body>
     </html>

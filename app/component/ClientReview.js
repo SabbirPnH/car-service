@@ -106,7 +106,7 @@ const ClientCarousel = () => {
       <ShapeOne />
       <ShapeTwo />
 
-      <div className=" px-4 sm:px-14 mx-auto">
+      <div className=" px-4 sm:px-14 ">
         <div className="grid grid-cols-12 gap-6 items-center justify-between ">
           <div className="col-span-12  mb-4">
             <h2  className="text-2xl md:text-5xl font-bold leading-tight" data-aos="zoom-in" data-aos-duration="2500">
