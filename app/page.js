@@ -4,7 +4,6 @@ import Hero from "./component/HeroSection";
 import { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import Count from "./component/Count";
 import FeatureProduct from "./component/FeatureProduct";
 import CategoryProduct from "./component/CategoryProduct";
 import ClientCrousel from "./component/ClientReview";
@@ -12,6 +11,9 @@ import NewsLatter from "./component/NewsLatter";
 import Team from "./component/Team";
 import Blog from "./component/Blog";
 import Barnd from "./component/Barnd";
+import Service from "./component/Service";
+import About from "./component/About";
+import OurService from "./component/OurService";
 
 
 
@@ -27,15 +29,16 @@ export default function Home() {
   return (
    <main >
     <Header/>
-    <Count/>
-    <Hero/>
-    <FeatureProduct/>
+   <Service/>
+   <About/>
+  <OurService/>
+    {/* <FeatureProduct/>
     <CategoryProduct/>
     <ClientCrousel/>
     <NewsLatter/>
     <Team/>
-    <Blog/>
-    <Barnd/>
+    <Blog/> */}
+    {/* <Barnd/> */}
    </main>
   );
 }
