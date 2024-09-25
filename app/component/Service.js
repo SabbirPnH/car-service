@@ -1,7 +1,7 @@
 
 
 
-import { FaUsersGear } from "react-icons/fa6";
+import { FaUsersCog } from "react-icons/fa";
 import { BsTools } from "react-icons/bs";
 import { FaCertificate } from "react-icons/fa6";
 import { useEffect } from "react";
@@ -45,7 +45,7 @@ const Service = () => {
           data-aos-anchor-placement="center-bottom"
           data-aos-delay="300" // 300ms delay for the second card
         >
-          <FaUsersGear className="text-7xl text-[#D81324]" />
+          <FaUsersCog className="text-7xl text-[#D81324]" />
           <div>
             <h5 className="text-lg font-bold text-[#0B2154]">Expert Workers</h5>
             <p className="text-[#596277] py-3 text-justify">

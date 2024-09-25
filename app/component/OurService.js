@@ -74,7 +74,7 @@ const OurService = () => {
             </div>
             <div className="w-full md:w-1/2 sm:ml-5">
               <p className="text-lg sm:text-2xl font-bold text-[#0B2154] mb-4">{services[activeServiceIndex].description}</p>
-              <p className='text-justify text-[#596277]'>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+              <p className='text-justify text-[#596277] mt-20 sm:mt-0'>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
               <p className='flex text-sm py-2 text-[#596277]'><IoCheckmarkSharp  className='text-green-700 text-xl font-bold mr-3'/>Modern Equipment</p>
               <p className='flex text-sm py-2 text-[#596277]'><IoCheckmarkSharp  className='text-green-700 text-xl font-bold mr-3'/>Expert Workers</p>
               <p className='flex text-sm py-2 text-[#596277]'><IoCheckmarkSharp  className='text-green-700 text-xl font-bold mr-3'/>Quality Servicing</p>
