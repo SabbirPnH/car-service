@@ -1,6 +1,5 @@
 
 import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope, FaTwitter, FaFacebookF, FaYoutube, FaLinkedinIn } from 'react-icons/fa';
-
 const Footer = () => {
     return (
         <div className="relative px-4 sm:px-20 text-white pt-5 mt-5" style={{

@@ -1,6 +1,4 @@
-
-
-
+"use client"
 import { FaUsersCog } from "react-icons/fa";
 import { BsTools } from "react-icons/bs";
 import { FaCertificate } from "react-icons/fa6";

@@ -1,7 +1,7 @@
 'use client';
 import { useState } from 'react';
 import { FaCarSide, FaCar, FaCog, FaOilCan } from 'react-icons/fa';
-import { IoCheckmarkSharp  } from "react-icons/io5";
+import { IoCheckmarkSharp } from "react-icons/io5";
 import { FaArrowRight } from "react-icons/fa";
 const OurService = () => {
   const services = [
@@ -36,20 +36,19 @@ const OurService = () => {
 
   return (
     <div className="px-4 sm:px-20 py-4 sm:py-12" data-aos="fade-up"
-    data-aos-duration="2000">
+      data-aos-duration="2000">
       <div className="text-center wow fadeInUp" data-wow-delay="0.1s">
         <h6 className="text-[#D81324] font-bold uppercase"> Our Services </h6>
         <h1 className="mb-5 text-2xl sm:text-4xl font-semibold pt-2 text-center text-[#0B2154]">Explore Our Services</h1>
       </div>
-      <div className="flex flex-col lg:flex-row">
+      <div className="flex flex-col lg:flex-row sm:pt-7">
         <div className="w-full lg:w-1/3 mb-4 lg:mb-0">
           <div className="nav flex flex-col w-full">
             {services.map((service, index) => (
               <button
                 key={index}
-                className={`nav-link flex items-center p-4 mb-4 sm:mr-7 text-left ${
-                  activeServiceIndex === index ? 'bg-[#D81324] text-white' : 'text-[#D81324] bg-[#f1f5f9]'
-                }`}
+                className={`nav-link flex items-center p-4 mb-4 sm:mr-7 text-left ${activeServiceIndex === index ? 'bg-[#D81324] text-white' : 'text-[#D81324] bg-[#f1f5f9]'
+                  }`}
                 onClick={() => setActiveServiceIndex(index)}
                 style={{ transition: 'background-color 0.3s ease, color 0.3s ease' }}
               >
@@ -75,17 +74,17 @@ const OurService = () => {
             <div className="w-full md:w-1/2 sm:ml-5">
               <p className="text-lg sm:text-2xl font-bold text-[#0B2154] mb-4">{services[activeServiceIndex].description}</p>
               <p className='text-justify text-[#596277] mt-20 sm:mt-0'>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-              <p className='flex text-sm py-2 text-[#596277]'><IoCheckmarkSharp  className='text-green-700 text-xl font-bold mr-3'/>Modern Equipment</p>
-              <p className='flex text-sm py-2 text-[#596277]'><IoCheckmarkSharp  className='text-green-700 text-xl font-bold mr-3'/>Expert Workers</p>
-              <p className='flex text-sm py-2 text-[#596277]'><IoCheckmarkSharp  className='text-green-700 text-xl font-bold mr-3'/>Quality Servicing</p>
-             
+              <p className='flex text-sm py-2 text-[#596277]'><IoCheckmarkSharp className='text-green-700 text-xl font-bold mr-3' />Modern Equipment</p>
+              <p className='flex text-sm py-2 text-[#596277]'><IoCheckmarkSharp className='text-green-700 text-xl font-bold mr-3' />Expert Workers</p>
+              <p className='flex text-sm py-2 text-[#596277]'><IoCheckmarkSharp className='text-green-700 text-xl font-bold mr-3' />Quality Servicing</p>
+
               <div className="flex justify-start  mt-2">
-      <a href="#" className="bg-[#D81324] text-white uppercase inline-flex items-center py-3 px-5">
-        Read More
-        <FaArrowRight className=' ml-3' />
-        
-      </a>
-      </div>
+                <a href="#" className="bg-[#D81324] text-white uppercase inline-flex items-center py-3 px-5">
+                  Read More
+                  <FaArrowRight className=' ml-3' />
+
+                </a>
+              </div>
             </div>
           </div>
         </div>

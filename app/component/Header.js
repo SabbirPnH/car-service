@@ -1,5 +1,4 @@
 
-
 'use client';
 import { Carousel } from "@material-tailwind/react";
 import Image from "next/image";
@@ -17,7 +16,7 @@ const items = [
     title: "Qualified Car Wash Service Center",
     description: "learn more",
   },
- 
+
 ];
 
 export function Header() {
@@ -41,18 +40,18 @@ export function Header() {
           <div className="absolute top-0 left-0 h-full sm:w-1/2 flex items-center px-6 lg:px-10">
             <div className="text-white text-center sm:text-start mx-4 sm:mx-0 ">
               <h2 className="text-2xl sm:text-3xl lg:text-6xl sm:ml-10  font-bold sm:text-justify" data-aos="fade-down"
-     data-aos-easing="linear"
-     data-aos-duration="1500">{item.title}</h2>
+                data-aos-easing="linear"
+                data-aos-duration="1500">{item.title}</h2>
               <div className="flex justify-center sm:justify-start">
-     <a href="#" className="bg-[#D81324] text-white uppercase inline-flex items-center py-3 px-5  sm:ml-10 mt-4" data-aos="fade-down"
-     data-aos-easing="linear"
-     data-aos-duration="1000">
-     {item.description}
-        <FaArrowRight className=' ml-3' />
-      
-      </a>
+                <a href="#" className="bg-[#D81324] text-white uppercase inline-flex items-center py-3 px-5  sm:ml-10 mt-4" data-aos="fade-down"
+                  data-aos-easing="linear"
+                  data-aos-duration="1000">
+                  {item.description}
+                  <FaArrowRight className=' ml-3' />
+
+                </a>
               </div>
-             
+
             </div>
           </div>
 
@@ -64,7 +63,7 @@ export function Header() {
               className="h-3/4 sm:w-44 lg:w-96  object-contain hidden sm:block"
               width={600}
               height={600}
-             data-aos="zoom-in-down"
+              data-aos="zoom-in-down"
               data-aos-duration="500"
             />
           </div>
