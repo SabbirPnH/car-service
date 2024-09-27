@@ -1,3 +1,4 @@
+"use client"
 import React from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -44,7 +45,7 @@ export default function TestimonialCarousel() {
         >
           {/* Testimonial Slide 1 */}
           <SwiperSlide>
-            <div className="testimonial-item text-center mb-5">
+            <div className="testimonial-item text-center mb-10 border-2 border-[#D81324]">
               <Image className=" rounded-full bg-[#f1f5f9] p-2 mx-auto mb-3" src="/img/testimonial-1.jpg" style={{ width: 80, height: 80 }} alt="Client 1" width={400} height={400} />
               <h5 className="mb-0 text-lg text-[#0B2154] font-bold">Client Name</h5>
               <small className='text-[#596277]'>Profession</small>
@@ -55,8 +56,8 @@ export default function TestimonialCarousel() {
           </SwiperSlide>
           {/* Testimonial Slide 2 */}
           <SwiperSlide>
-            <div className="testimonial-item text-center">
-              <Image className="bg-[#f1f5f9] rounded-full p-2 mx-auto mb-3" src="/img/testimonial-2.jpg" style={{ width: 80, height: 80 }} alt="Client 2"  width={400} height={400}/>
+            <div className="testimonial-item text-center border-2 border-[#D81324]">
+              <Image className="bg-[#f1f5f9] rounded-full p-2 mx-auto mb-3 " src="/img/testimonial-2.jpg" style={{ width: 80, height: 80 }} alt="Client 2"  width={400} height={400}/>
               <h5 className="mb-0 text-lg text-[#0B2154] font-bold">Client Name</h5>
               <small className='text-[#596277]'>Profession</small>
               <div className="bg-light text-center p-4">
@@ -66,7 +67,7 @@ export default function TestimonialCarousel() {
           </SwiperSlide>
           {/* Testimonial Slide 3 */}
           <SwiperSlide>
-            <div className="testimonial-item text-center">
+            <div className="testimonial-item text-center border-2 border-[#D81324]">
               <Image className="bg-[#f1f5f9] rounded-full p-2 mx-auto mb-3" src="/img/testimonial-3.jpg" style={{ width: 80, height: 80 }} alt="Client 3"  width={400} height={400}/>
               <h5 className="mb-0 text-lg text-[#0B2154] font-bold">Client Name</h5>
               <small className='text-[#596277]'>Profession</small>
@@ -77,7 +78,7 @@ export default function TestimonialCarousel() {
           </SwiperSlide>
           {/* Testimonial Slide 4 */}
           <SwiperSlide>
-            <div className="testimonial-item text-center">
+            <div className="testimonial-item text-center border-2 border-[#D81324]">
               <Image className="bg-[#f1f5f9] rounded-full p-2 mx-auto mb-3" src="/img/testimonial-4.jpg" style={{ width: 80, height: 80 }} alt="Client 4"  width={400} height={400}/>
               <h5 className="mb-0 text-lg text-[#0B2154] font-bold">Client Name</h5>
               <small className='text-[#596277]'>Profession</small>

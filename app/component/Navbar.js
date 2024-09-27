@@ -43,7 +43,7 @@ const Navbar = () => {
           <div className="flex space-x-6">
             <div className="flex items-center py-3">
               <SiGooglemaps className="text-[#D81324] mr-2" />
-              <span className="text-sm">1258, Dhaka, BANGLADESH</span>
+              <span className="text-sm">1216, Dhaka, BANGLADESH</span>
             </div>
             <div className="flex items-center py-3">
               <TbClock className="text-[#D81324] mr-2" />
@@ -101,12 +101,19 @@ const Navbar = () => {
               about
             </li>
             </Link>
-            <a href="#link" className="mr-8 hover:text-[#D81324] list-none">
+            <Link href={"/service"}>
+            <li  className="mr-8 hover:text-[#D81324] list-none">
               service
-            </a>
-            <a href="#link" className=" hover:text-[#D81324] list-none">
+            </li>
+            </Link>
+            <Link href={"/contact"}>
+            <li
+            
+              className="hover:text-[#D81324] list-none"
+            >
               Contact
-            </a>
+            </li>
+            </Link>
           </nav>
 
           
@@ -172,18 +179,22 @@ const Navbar = () => {
               about
             </li>
            </Link>
-            <a
-              href="#"
+           <Link href={"/service"}>
+           <li
+              
               className="block px-3 py-2 text-[#0B2154] hover:text-[#D81324] list-none"
             >
               service
-            </a>
-            <a
-              href="#"
+            </li>
+           </Link>
+            <Link href={"/contact"}>
+            <li
+            
               className="block px-3 py-2 text-[#0B2154] hover:text-[#D81324] list-none"
             >
               Contact
-            </a>
+            </li>
+            </Link>
           </div>
         </div>
       </header>
