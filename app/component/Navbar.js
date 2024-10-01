@@ -13,7 +13,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isTopbarVisible, setIsTopbarVisible] = useState(true);
   const [isNavbarSticky, setIsNavbarSticky] = useState(false);
-
+  const [activeLink, setActiveLink] = useState("/"); 
   // Listen for scroll events to hide topbar and make navbar sticky
   useEffect(() => {
     const handleScroll = () => {
@@ -81,35 +81,35 @@ const Navbar = () => {
       >
         <div className=" flex justify-between items-center py-5 px-4 sm:px-10">
           {/* Site Logo and Name */}
-          <a
-            href="#link"
+          <Link
+            href={"/"}
             className="flex flex-shrink-0 title-font font-medium items-center text-gray-900 md:mb-0"
           >
             <Image className="h-12 w-52" src="/img/tv10.png" alt="logo-image" width={400} height={400}/>
             
-          </a>
+          </Link>
 
           {/* Navbar Links */}
           <nav className="hidden md:ml-auto md:flex flex-wrap items-center justify-center text-base tracking-wide">
-            <Link href={"/"}>
-            <li  className="mr-8 hover:text-[#D81324] list-none">
+            <Link onClick={() => setActiveLink("/")} href={"/"}>
+            <li  className={`mr-8 hover:text-[#D81324] list-none ${activeLink === "/" ? "text-[#D81324]" : "text-[#0B2154]"}`}>
               home
             </li>
             </Link>
-            <Link href={"/about"}>
-            <li  className="mr-8 hover:text-[#D81324] list-none">
+            <Link onClick={() => setActiveLink("/about")} href={"/about"}>
+            <li  className={`mr-8 hover:text-[#D81324] list-none ${activeLink === "/about" ? "text-[#D81324]" : "text-[#0B2154]"}`}>
               about
             </li>
             </Link>
-            <Link href={"/service"}>
-            <li  className="mr-8 hover:text-[#D81324] list-none">
+            <Link onClick={() => setActiveLink("/service")} href={"/service"}>
+            <li  className={`mr-8 hover:text-[#D81324] list-none ${activeLink === "/service" ? "text-[#D81324]" : "text-[#0B2154]"}`}>
               service
             </li>
             </Link>
-            <Link href={"/contact"}>
+            <Link onClick={() => setActiveLink("/contact")} href={"/contact"}>
             <li
             
-              className="hover:text-[#D81324] list-none"
+            className={` hover:text-[#D81324] list-none ${activeLink === "/contact" ? "text-[#D81324]" : "text-[#0B2154]"}`}
             >
               Contact
             </li>
