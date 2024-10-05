@@ -7,7 +7,7 @@ const About = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
         {/* Left Side (Image) */}
         <div className="relative pt-4" style={{ minHeight: 400 }}>
-          <Image className="absolute w-full h-full object-cover" src="/img/about.jpg" alt width={400} height={400} />
+          <Image className="absolute w-full h-full object-cover" src="/img/about.jpg" alt='img' width={400} height={400} />
           <div className="absolute top-0 right-0 mt-[-1rem] mr-[-1rem] py-4 px-5 bg-black/20">
             <h1 className="text-5xl text-white">15 <span className="text-lg">Years</span></h1>
             <h4 className="text-white">Experience</h4>

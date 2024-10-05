@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { FaCarSide, FaCar, FaCog, FaOilCan } from 'react-icons/fa';
 import { IoCheckmarkSharp } from "react-icons/io5";
 import { FaArrowRight } from "react-icons/fa";
+import Image from 'next/image';
 
 
 const OurService = () => {
@@ -66,10 +67,12 @@ const OurService = () => {
           <div className="flex flex-col md:flex-row g-4">
             <div className="w-full md:w-1/2" style={{ minHeight: '350px' }}>
               <div className="relative h-full">
-                <img
+                <Image
                   className="absolute inset-0 w-full h-full object-cover transition-opacity duration-300"
                   src={services[activeServiceIndex].image}
                   alt={services[activeServiceIndex].title}
+                  width={400} 
+                  height={400}
                 />
               </div>
             </div>
