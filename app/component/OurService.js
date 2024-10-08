@@ -11,26 +11,26 @@ const OurService = () => {
     {
       title: 'Diagnostic Test',
       image: '/img/service-1.jpg',
-      description: '15 Years Of Experience In Auto Servicing',
+      description: 'Samir motors corporation.',
 
       icon: <FaCarSide className="text-3xl mr-3" />,
     },
     {
       title: 'Engine Servicing',
       image: '/img/service-2.jpg',
-      description: '15 Years Of Experience In Auto Servicing',
+      description: 'Samir motors corporation.',
       icon: <FaCar className="text-3xl mr-3" />,
     },
     {
       title: 'Tires Replacement',
       image: '/img/service-3.jpg',
-      description: '15 Years Of Experience In Auto Servicing',
+      description: 'Samir motors corporation.',
       icon: <FaCog className="text-3xl mr-3" />,
     },
     {
       title: 'Oil Changing',
       image: '/img/service-4.jpg',
-      description: '15 Years Of Experience In Auto Servicing',
+      description: 'Samir motors corporation.',
       icon: <FaOilCan className="text-3xl mr-3" />,
     },
   ];
@@ -78,7 +78,7 @@ const OurService = () => {
             </div>
             <div className="w-full md:w-1/2 sm:ml-5">
               <p className="text-lg sm:text-2xl font-bold text-[#0B2154] mb-4">{services[activeServiceIndex].description}</p>
-              <p className='text-justify text-[#596277] mt-20 sm:mt-0'>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+              <p className='text-justify text-[#596277] mt-20 sm:mt-0'>Samir Motors Corporation is a premier automotive service provider committed to delivering high-quality solutions for all your vehicle needs. Our team of skilled technicians utilizes state-of-the-art equipment and technology to ensure efficient and precise diagnostics, repairs, and maintenance.</p>
               <p className='flex text-sm py-2 text-[#596277]'><IoCheckmarkSharp className='text-green-700 text-xl font-bold mr-3' />Modern Equipment</p>
               <p className='flex text-sm py-2 text-[#596277]'><IoCheckmarkSharp className='text-green-700 text-xl font-bold mr-3' />Expert Workers</p>
               <p className='flex text-sm py-2 text-[#596277]'><IoCheckmarkSharp className='text-green-700 text-xl font-bold mr-3' />Quality Servicing</p>

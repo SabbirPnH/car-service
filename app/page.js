@@ -8,8 +8,10 @@ import About from "./component/About";
 import OurService from "./component/OurService";
 import Booking from "./component/Booking";
 import TechniciansTeam from "./component/TechniciansTeam";
-import Counter from "./component/Counter";
 import TestimonialCarousel from "./component/Testimonial";
+import CarCollecation from "./component/CarCollection";
+import JeebCollection from "./component/JeebCollection";
+import MiniTruckCollection from "./component/MiniTruckCollection";
 
 
 export default function Home() {
@@ -25,7 +27,9 @@ export default function Home() {
     <Header/>
    <Service/>
    <About/>
-   <Counter/>
+   <CarCollecation/>
+   <JeebCollection/>
+   <MiniTruckCollection/>
   <OurService/>
   <Booking/>
   <TechniciansTeam/>

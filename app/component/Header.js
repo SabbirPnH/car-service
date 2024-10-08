@@ -5,15 +5,15 @@ import Image from "next/image";
 import { FaArrowRight } from "react-icons/fa";
 const items = [
   {
-    background: "/img/carousel-bg-1.jpg",
+    background: "/img/banner (1).jpg",
     leftImage: "/img/carousel-1.png",
-    title: "Qualified Car Wash Service Center",
+    title: "Welcome to  Samir Motor Corporation",
     description: "learn more",
   },
   {
-    background: "/img/carousel-bg-2.jpg",
+    background: "/img/banner (2).jpg",
     leftImage: "/img/carousel-2.png",
-    title: "Qualified Car Wash Service Center",
+    title: "Welcome to  Samir Motor Corporation",
     description: "learn more",
   },
 
@@ -39,7 +39,7 @@ export function Header() {
           {/* Left-side Content */}
           <div className="absolute top-0 left-0 h-full sm:w-1/2 flex items-center px-6 lg:px-10">
             <div className="text-white text-center sm:text-start mx-4 sm:mx-0 ">
-              <h2 className="text-2xl sm:text-3xl lg:text-6xl sm:ml-10  font-bold sm:text-justify" data-aos="fade-down"
+              <h2 className="text-xl sm:text-2xl lg:text-4xl sm:ml-10  font-bold sm:text-justify uppercase" data-aos="fade-down"
                 data-aos-easing="linear"
                 data-aos-duration="1500">{item.title}</h2>
               <div className="flex justify-center sm:justify-start">

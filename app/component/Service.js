@@ -16,7 +16,7 @@ const Service = () => {
   }, []);
 
   return (
-    <div className="px-4 sm:px-20 py-10">
+    <div className="px-4 sm:px-20 pt-10 pb-4">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {/* Quality Servicing */}
         <div
@@ -29,7 +29,7 @@ const Service = () => {
           <div>
             <h5 className="text-lg font-bold text-[#0B2154]">Quality Servicing</h5>
             <p className="text-[#596277] py-3 text-justify">
-              Diam dolor diam ipsum sit amet diam et eos erat ipsum
+            Expert care ensuring reliable vehicle performance and safety.
             </p>
             <a href="#" className="ary border-b border-gray-300 text-[#0B2154]">
               Read More
@@ -47,7 +47,7 @@ const Service = () => {
           <div>
             <h5 className="text-lg font-bold text-[#0B2154]">Expert Workers</h5>
             <p className="text-[#596277] py-3 text-justify">
-              Diam dolor diam ipsum sit amet diam et eos erat ipsum
+            Skilled professionals delivering exceptional service and solutions.
             </p>
             <a href="#" className="ary border-b border-gray-300 text-[#0B2154]">
               Read More
@@ -65,7 +65,7 @@ const Service = () => {
           <div>
             <h5 className="text-lg font-bold text-[#0B2154]">Modern Equipment</h5>
             <p className="text-[#596277] py-3 text-justify">
-              Diam dolor diam ipsum sit amet diam et eos erat ipsum
+            Advanced tools ensuring efficient and precise automotive servicing
             </p>
             <a href="#" className="ary border-b border-gray-300 text-[#0B2154]">
               Read More

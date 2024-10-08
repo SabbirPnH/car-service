@@ -19,7 +19,7 @@ const Booking = () => {
             Certified and Award Winning Car Repair Service Provider
           </h1>
           <p className="text-white text-justify">
-            Eirmod sed tempor lorem ut dolores. Aliquyam sit sadipscing kasd ipsum. Dolor ea et dolore et at sea ea at dolor, justo ipsum duo rebum sea invidunt voluptua. Eos vero eos vero ea et dolore eirmod et. Dolores diam duo invidunt lorem. Elitr ut dolores magna sit. Sea dolore sanctus sed et. Takimata takimata sanctus sed.
+          Book for a Service: Schedule your vehicle's maintenance or repair easily with our online booking system. Choose a convenient time that fits your schedule, and our expert technicians will ensure your car receives top-notch care. Whether its routine maintenance or specialized services, we prioritize your vehicle's performance and safety. 
           </p>
         </div>
 
@@ -44,9 +44,9 @@ const Booking = () => {
                 {/* Select Service */}
                 <select className="form-control border-0 bg-white p-4 text-[#596277] outline-none ">
                   <option selected >Select A Service</option>
-                  <option value={1}>Service 1</option>
-                  <option value={2}>Service 2</option>
-                  <option value={3}>Service 3</option>
+                  <option value={1}>Engine Services</option>
+                  <option value={2}>Tires & Wheels</option>
+                  <option value={3}>Preventative Maintenance</option>
                 </select>
                 {/* Service Date */}
                 <input
