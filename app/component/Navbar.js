@@ -8,7 +8,7 @@ import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa6";
 import { IoLogoInstagram } from "react-icons/io5";
 import Image from "next/image";
 import Link from "next/link";
-
+import { IoMail } from "react-icons/io5";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isTopbarVisible, setIsTopbarVisible] = useState(true);
@@ -42,19 +42,16 @@ const Navbar = () => {
         <div className="hidden lg:flex justify-between items-center px-4 sm:px-10">
           <div className="flex space-x-6">
             <div className="flex items-center py-3">
-              <SiGooglemaps className="text-[#D81324] mr-2" />
-              <span className="text-sm">1216, Dhaka, BANGLADESH</span>
+              <IoMail  className="text-[#D81324] mr-2" />
+              <span className="text-sm">samirmotors18@gmail.com</span>
             </div>
-            <div className="flex items-center py-3">
-              <TbClock className="text-[#D81324] mr-2" />
-              <span className="text-sm">Mon - Fri : 09.00 AM - 09.00 PM</span>
-            </div>
+           
           </div>
 
           <div className="flex items-center space-x-6">
             <div className="flex items-center py-3">
               <IoCall className="text-[#D81324] mr-2" />
-              <span className="text-sm">+012 345 6789</span>
+              <span className="text-sm">Cell: 01716-537772,01616-537772</span>
             </div>
             <div className="flex items-center space-x-2">
               <a className="bg-white text-[#D81324] p-2" href="#">
@@ -79,16 +76,19 @@ const Navbar = () => {
         className={`w-full bg-white text-[#0B2154] font-semibold uppercase body-font shadow-sm transition-all duration-300 z-40  ${isNavbarSticky ? "fixed top-0" : "relative"
           } ${isTopbarVisible ? " lg:mt-[50px]" : "mt-0"}`} // Adjust margin-top when topbar is visible or hidden
       >
-        <div className=" flex justify-between items-center py-5 px-4 sm:px-10">
+        <div className=" flex justify-between items-center py-3 px-4 sm:px-10">
           {/* Site Logo and Name */}
-          <Link
+         <div className="flex items-center gap-2 sm:gap-4">
+         <Link
             href={"/"}
             className="flex flex-shrink-0 title-font font-medium items-center text-gray-900 md:mb-0"
           >
-            <Image className="h-12 w-52" src="/img/tv10.png" alt="logo-image" width={400} height={400}/>
+            <Image className="h-12 w-full" src="/img/logo-removebg-preview.png" alt="logo-image" width={400} height={400}/>
             
           </Link>
-
+          <p className="text-[12px] sm:text-[16px]">Samir Motor Corporation</p>
+         </div>
+        
           {/* Navbar Links */}
           <nav className="hidden md:ml-auto md:flex flex-wrap items-center justify-center text-base tracking-wide">
             <Link onClick={() => setActiveLink("/")} href={"/"}>
@@ -104,6 +104,11 @@ const Navbar = () => {
             <Link onClick={() => setActiveLink("/service")} href={"/service"}>
             <li  className={`mr-8 hover:text-[#D81324] list-none ${activeLink === "/service" ? "text-[#D81324]" : "text-[#0B2154]"}`}>
               service
+            </li>
+            </Link>
+            <Link onClick={() => setActiveLink("/ceo")} href={"/ceo"}>
+            <li  className={`mr-8 hover:text-[#D81324] list-none ${activeLink === "/ceo" ? "text-[#D81324]" : "text-[#0B2154]"}`}>
+              CEO Message 
             </li>
             </Link>
             <Link onClick={() => setActiveLink("/contact")} href={"/contact"}>
@@ -185,6 +190,14 @@ const Navbar = () => {
               className="block px-3 py-2 text-[#0B2154] hover:text-[#D81324] list-none"
             >
               service
+            </li>
+           </Link>
+           <Link href={"/ceo"}>
+           <li
+              
+              className="block px-3 py-2 text-[#0B2154] hover:text-[#D81324] list-none"
+            >
+            CEO Message 
             </li>
            </Link>
             <Link href={"/contact"}>

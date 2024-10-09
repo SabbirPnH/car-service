@@ -23,7 +23,7 @@ const placeData = [
 	},
 	{
 		price: "$325",
-		img: "/img/1 (1).jpg",
+		img: "/img/4.png",
 		name: "Kaafu Atoll",
 		location: "United State",
 	},

@@ -5,7 +5,7 @@ import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope, FaTwitter, FaFacebookF, FaYoutu
 const Footer = () => {
     return (
         <div className="relative px-4 sm:px-20 text-white pt-5 mt-5" style={{
-            backgroundImage: "url('/img/photorealistic-sustainable-garden-with-home-grown-plants.jpg')",
+            backgroundImage: "url('/img/banner (3).jpg')",
             backgroundSize: "cover",
             backgroundPosition: "center",
         }}>
@@ -15,13 +15,16 @@ const Footer = () => {
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
                         {/* Address Section */}
                         <div>
-                        <Image className=" " src="/img/tv10 (1).png" alt="" width={400} height={400}/>
+                       <div>
+                       <Image className=" h-20 w-20 filter brightness-0 invert" src="/img/logo-removebg-preview.png" alt="" width={400} height={400}/>
+                       
+                       </div>
                             <p className="py-3">Welcome to Samir Group and enjoy our services.</p>
                             <div className="flex pt-2">
-                                <a className="mr-2 border border-white p-2 rounded-full hover:text-[#404A3D] hover:bg-[#EDDD5E]" href=""><FaTwitter /></a>
-                                <a className="mr-2 border border-white p-2 rounded-full hover:text-[#404A3D] hover:bg-[#EDDD5E]" href=""><FaFacebookF /></a>
-                                <a className="mr-2 border border-white p-2 rounded-full hover:text-[#404A3D] hover:bg-[#EDDD5E]" href=""><FaYoutube /></a>
-                                <a className='border border-white p-2 rounded-full hover:text-[#404A3D] hover:bg-[#EDDD5E]' href=""><FaLinkedinIn /></a>
+                                <a className="mr-2 border border-white p-2 rounded-full hover:text-[#fff] hover:bg-[#D81324]" href="#"><FaTwitter /></a>
+                                <a className="mr-2 border border-white p-2 rounded-full hover:text-[#fff] hover:bg-[#D81324]" href="#"><FaFacebookF /></a>
+                                <a className="mr-2 border border-white p-2 rounded-full hover:text-[#fff] hover:bg-[#D81324]" href="#"><FaYoutube /></a>
+                                <a className='border border-white p-2 rounded-full hover:text-[#fff] hover:bg-[#D81324]' href="#"><FaLinkedinIn /></a>
                             </div>
                         </div>
 
@@ -34,7 +37,7 @@ const Footer = () => {
                   <Image className="img-fluid h-16 w-20" src="/img/a1.jpg" alt="" width={400} height={400}/>
                 </figure>
                 <div className="post-content">
-                  <h6 className="post-title text-sm"> <a href="blog-single.html">SAIMON AGRO &amp; FISHERIES FARM</a> </h6>
+                  <h6 className="post-title text-sm "> <a href="#">Samir motors corporation.</a> </h6>
                   <div className="meta text-sm pt-2 text-slate-500"><span className="date">Nov 15, 2018</span></div>
                 </div>
               </li>
@@ -93,8 +96,8 @@ const Footer = () => {
                             <h4 className="text-2xl font-semibold mb-4 uppercase"> Subscribe Us</h4>
                            
                             <div className="relative mx-auto " style={{ maxWidth: '400px' }}>
-                                <input className="form-input rounded-md border-0 w-full py-4 pl-4 pr-10 text-[#596277] outline-none placeholder:text-[#596277]" type="text" placeholder="Your email" />
-                                <button type="button" className="absolute top-0 rounded-md right-0 mr-2 bg-[#EDDD5E] text-black mt-2  py-2 px-4 uppercase">SignUp</button>
+                                <input className="form-input  border-0 w-full py-4 pl-4 pr-10 text-[#596277] outline-none placeholder:text-[#596277]" type="text" placeholder="Your email" />
+                                <button type="button" className="absolute top-0  right-0 mr-2 bg-[#D81324] text-white mt-2  py-2 px-4 uppercase">SignUp</button>
                             </div>
                         </div>
                     </div>
