@@ -65,10 +65,10 @@ const OurService = () => {
         </div>
         <div className="w-full lg:w-2/3">
           <div className="flex flex-col md:flex-row g-4">
-            <div className="w-full md:w-1/2" style={{ minHeight: '350px' }}>
+            <div className="w-full md:w-1/2 sm:min-h-[350px]" >
               <div className="relative h-full">
                 <Image
-                  className="absolute inset-0 w-full h-full object-cover transition-opacity duration-300"
+                  className="absolute sm:block inset-0 w-full h-full object-cover transition-opacity duration-300"
                   src={services[activeServiceIndex].image}
                   alt={services[activeServiceIndex].title}
                   width={400} 
@@ -78,7 +78,7 @@ const OurService = () => {
             </div>
             <div className="w-full md:w-1/2 sm:ml-5">
               <p className="text-lg sm:text-2xl font-bold text-[#0B2154] mb-4">{services[activeServiceIndex].description}</p>
-              <p className='text-justify text-[#596277] mt-20 sm:mt-0'>Samir Motors Corporation is a premier automotive service provider committed to delivering high-quality solutions for all your vehicle needs. Our team of skilled technicians utilizes state-of-the-art equipment and technology to ensure efficient and precise diagnostics, repairs, and maintenance.</p>
+              <p className='text-justify text-[#596277] '>Samir Motors Corporation is a premier automotive service provider committed to delivering high-quality solutions for all your vehicle needs. Our team of skilled technicians utilizes state-of-the-art equipment and technology to ensure efficient and precise diagnostics, repairs, and maintenance.</p>
               <p className='flex text-sm py-2 text-[#596277]'><IoCheckmarkSharp className='text-green-700 text-xl font-bold mr-3' />Modern Equipment</p>
               <p className='flex text-sm py-2 text-[#596277]'><IoCheckmarkSharp className='text-green-700 text-xl font-bold mr-3' />Expert Workers</p>
               <p className='flex text-sm py-2 text-[#596277]'><IoCheckmarkSharp className='text-green-700 text-xl font-bold mr-3' />Quality Servicing</p>

@@ -19,7 +19,7 @@ const Booking = () => {
             Certified and Award Winning Car Repair Service Provider
           </h1>
           <p className="text-white text-justify">
-          Book for a Service: Schedule your vehicle's maintenance or repair easily with our online booking system. Choose a convenient time that fits your schedule, and our expert technicians will ensure your car receives top-notch care. Whether its routine maintenance or specialized services, we prioritize your vehicle's performance and safety. 
+          Book for a Service: Schedule your vehicle&aposs maintenance or repair easily with our online booking system. Choose a convenient time that fits your schedule, and our expert technicians will ensure your car receives top-notch care. Whether its routine maintenance or specialized services, we prioritize your vehicle&aposs performance and safety. 
           </p>
         </div>
 

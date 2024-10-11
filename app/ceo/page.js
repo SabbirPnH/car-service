@@ -146,7 +146,7 @@ const EmailTemplate = () => {
 
       <p className="max-w-2xl mx-auto text-justify mt-5">
         Sincerely,<br />
-        [CEO's Name]<br />
+        [CEO Name]<br />
         CEO, Samir Motors Corporation
       </p>
     </div>

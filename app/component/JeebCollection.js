@@ -50,7 +50,7 @@ const JeebCollection = () => {
 	return (
 		<section className=" bg-white dark:bg-[#2E2F41] text-zinc-900 dark:text-white relative overflow-hidden sm:py-10">
 			<div className=" px-4 sm:px-20 ">
-                <h1 className="text-[#D81324] font-bold uppercase text-center ">Jeeb Collection</h1>
+                <h1 className="text-[#D81324] font-bold uppercase text-center mt-4 sm:mt-0  ">Jeeb Collection</h1>
 				<div className="grid grid-cols-12 justify-center mb-4 md:mb-5">
 				</div>
 
