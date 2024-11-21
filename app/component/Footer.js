@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope, FaTwitter, FaFacebookF, FaYoutube, FaLinkedinIn } from 'react-icons/fa';
 const Footer = () => {
     return (
-        <div className="relative px-4 sm:px-20 text-white pt-5 mt-5" style={{
+        <div className="relative px-4 sm:px-20 text-white pt-5 " style={{
             backgroundImage: "url('/img/banner (3).jpg')",
             backgroundSize: "cover",
             backgroundPosition: "center",
@@ -16,10 +16,10 @@ const Footer = () => {
                         {/* Address Section */}
                         <div>
                        <div>
-                       <Image className=" h-20 w-20 filter brightness-0 invert" src="/img/logo-removebg-preview.png" alt="" width={400} height={400}/>
+                       <Image className=" h-16" src="/img/sm-motor.png" alt="" width={400} height={400}/>
                        
                        </div>
-                            <p className="py-3">Welcome to Samir Group and enjoy our services.</p>
+                            <p className="py-3">Welcome to SM Motor Corporation and enjoy our services.</p>
                             <div className="flex pt-2">
                                 <a className="mr-2 border border-white p-2 rounded-full hover:text-[#fff] hover:bg-[#D81324]" href="#"><FaTwitter /></a>
                                 <a className="mr-2 border border-white p-2 rounded-full hover:text-[#fff] hover:bg-[#D81324]" href="#"><FaFacebookF /></a>
@@ -37,7 +37,7 @@ const Footer = () => {
                   <Image className="img-fluid h-16 w-20" src="/img/a1.jpg" alt="" width={400} height={400}/>
                 </figure>
                 <div className="post-content">
-                  <h6 className="post-title text-sm "> <a href="#">Samir motors corporation.</a> </h6>
+                  <h6 className="post-title text-sm "> <a href="#">SM motors corporation.</a> </h6>
                   <div className="meta text-sm pt-2 text-slate-500"><span className="date">Nov 15, 2018</span></div>
                 </div>
               </li>
@@ -52,13 +52,19 @@ const Footer = () => {
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth={3} strokeLinecap="round" strokeLinejoin="round" className="inline mr-2 h-5 w-5">
                                     <path d="M9 18l6-6-6-6" />
                                 </svg>
+                                <Link href={"https://beta.samirgroupbd.com/"} className="text-white w-full transition-all duration-300 group-hover:tracking-widest">SM Foreign Consultancy </Link>
+                            </li>
+                            <li className="transition-all duration-300 flex items-center left-0 relative group mb-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth={3} strokeLinecap="round" strokeLinejoin="round" className="inline mr-2 h-5 w-5">
+                                    <path d="M9 18l6-6-6-6" />
+                                </svg>
                                 <Link href={"#"} className="text-white w-full transition-all duration-300 group-hover:tracking-widest">Samir Textile Pvt. Ltd.</Link>
                             </li>
                             <li className="transition-all duration-300 flex items-center left-0 relative group mb-2">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth={3} strokeLinecap="round" strokeLinejoin="round" className="inline mr-2 h-5 w-5">
                                     <path d="M9 18l6-6-6-6" />
                                 </svg>
-                                <Link href={"#"} className="text-white w-full transition-all duration-300 group-hover:tracking-widest">Samir Motor Corporation</Link>
+                                <Link href={"#"} className="text-white w-full transition-all duration-300 group-hover:tracking-widest">SM Motor Corporation</Link>
                             </li>
                             <li className="transition-all duration-300 flex items-center left-0 relative group mb-2">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth={3} strokeLinecap="round" strokeLinejoin="round" className="inline mr-2 h-5 w-5">
@@ -70,7 +76,7 @@ const Footer = () => {
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth={3} strokeLinecap="round" strokeLinejoin="round" className="inline mr-2 h-5 w-5">
                                     <path d="M9 18l6-6-6-6" />
                                 </svg>
-                                <Link href={"#"} className="text-white w-full transition-all duration-300 group-hover:tracking-widest"> Saimon Agro & Fisheries Farm.</Link>
+                                <Link href={"#"} className="text-white w-full transition-all duration-300 group-hover:tracking-widest"> Saimon Agro & Fisheries</Link>
                             </li>
                             <li className="transition-all duration-300 flex items-center left-0 relative group mb-2">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth={3} strokeLinecap="round" strokeLinejoin="round" className="inline mr-2 h-5 w-5">
@@ -82,13 +88,9 @@ const Footer = () => {
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth={3} strokeLinecap="round" strokeLinejoin="round" className="inline mr-2 h-5 w-5">
                                     <path d="M9 18l6-6-6-6" />
                                 </svg>
-                                <Link href={"#"} className="text-white w-full transition-all duration-300 group-hover:tracking-widest"> Air way International</Link>
+                                <Link href={"#"} className="text-white w-full transition-all duration-300 group-hover:tracking-widest">Saif Air  International</Link>
                             </li>
                             
-
-
-
-
                         </div>
 
                         {/* Newsletter Section */}

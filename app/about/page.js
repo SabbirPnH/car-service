@@ -3,7 +3,7 @@ import Service from "../component/Service";
 import Link from "next/link";
 import About from "../component/About";
 import Counter from "../component/Counter";
-import TechniciansTeam from "../component/TechniciansTeam";
+
 
 export async function generateMetadata() {
   return {
@@ -39,7 +39,7 @@ const AboutPage=()=>{
 <Service/>
 <About/>
 <Counter/>
-<TechniciansTeam/>
+
         </div>
 
 

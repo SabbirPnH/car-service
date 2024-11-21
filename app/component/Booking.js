@@ -2,7 +2,7 @@
 const Booking = () => {
   return (
     <div
-      className="relative animate-fadeInUp"
+      className="relative animate-fadeInUp mt-7 sm:mt-0"
       style={{
         backgroundImage: "url('/img/carousel-bg-2.jpg')",
         backgroundSize: "cover",

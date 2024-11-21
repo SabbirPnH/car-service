@@ -1,156 +1,33 @@
-// import React from "react";
-// import Image from "next/image";
-// const EmailTemplate = () => {
-//   return (
-//     <div className="px-4 sm:px-20">
-//         <div className="flex items-center gap-2 sm:gap-4 justify-center py-5 border-b-2 ">
-//          <p
-//             href={"/"}
-//             className="flex flex-shrink-0 title-font font-medium items-center text-gray-900 md:mb-0"
-//           >
-//             <Image className="h-12 w-full" src="/img/logo-removebg-preview.png" alt="logo-image" width={400} height={400}/>
-            
-//           </p>
-//           <p className="text-[12px] sm:text-[16px]">Samir Motor Corporation</p>
-//          </div>
-      
-//         <p className="max-w-2xl mx-auto text-justify mt-5">Dear Samir Motors Corporation Community,
-
-// Our teams have been working diligently over the past few days to investigate a cybersecurity incident while simultaneously working to restore our systems, including the website and customer service platforms.
-
-// Samir Motors Corporation is built on trust, transparency, and reliability. As such, I am writing to inform you that our website and systems are back online, and to provide you with an update on the ongoing investigation and the steps we are taking to address the issue.
-
-// Here’s what we know so far:
-
-// While our investigation is ongoing, preliminary evidence indicates that an unauthorized user may have gained access to our systems. As a result, certain personally identifiable information might have been compromised.
-
-// What you can do to protect yourself:
-
-// We have engaged an external forensics team to thoroughly examine the extent of the compromise. As a precaution, we advise our customers and partners to monitor their accounts closely for any suspicious activity. If you use the same password for multiple sites, we recommend that you update those passwords immediately.
-
-// What we’re doing about it:
-
-// Given the evolving nature of cyber threats, we continuously work to improve our security measures. In response to this incident, we are implementing several new safeguards, including:
-
-// Resetting all user passwords as a security precaution on [Insert Date].
-// Reassessing our data retention practices to limit the storage of sensitive information, where appropriate.
-// Enhancing our overall cyber threat detection and prevention systems.
-// Our customers and partners are the foundation of Samir Motors Corporation, and we are fully committed to ensuring the security of your information and providing the transparency you expect from us.
-
-// We deeply regret any inconvenience this incident has caused and appreciate your patience as we worked to restore our services.
-
-// Thank you for your continued trust in Samir Motors Corporation.
-
-// Sincerely,
-// [CEO's Name]
-// CEO, Samir Motors Corporation
-
-// </p>
-//     </div>
-//   );
-// };
-
-// export default EmailTemplate;
-
-
 
 import React from "react";
 import Image from "next/image";
 
-const EmailTemplate = () => {
+const CEO = () => {
   return (
-    <div className="px-4 sm:px-20">
-      {/* Header Section */}
-      <div className="flex items-center gap-2 sm:gap-4 justify-center py-5 border-b-2">
-        <p className="flex flex-shrink-0 title-font font-medium items-center text-gray-900 md:mb-0">
-          <Image
-            className="h-12 w-full"
-            src="/img/logo-removebg-preview.png"
-            alt="logo-image"
-            width={400}
-            height={400}
-          />
-        </p>
-        <p className="text-[12px] sm:text-[16px] font-bold">Samir Motor Corporation</p>
+    <div className="pl-10 font-[sans-serif]  flex justify-center pb-5 lg:pb-0 lg:py-10 px-4 lg:px-0 bg-[#f1f5f9] lg:mb-8 ">
+  <div>
+    <div className="grid grid-cols-1 gap-6 pt-5">
+      <div className="col-span-2">
+        <h2 className="text-[#0B2154] text-sm lg:text-3xl font-semibold lg:font-extrabold  lg:text-center">CEO Message SM Motor Corporation </h2>
       </div>
-
-      {/* CEO Message Section */}
-      <p className="max-w-2xl mx-auto text-justify mt-5">
-        Dear Samir Motors Corporation Community,
-      </p>
-
-      <p className="max-w-2xl mx-auto text-justify mt-3">
-        Our teams have been working diligently over the past few days to
-        investigate a cybersecurity incident while simultaneously working to
-        restore our systems, including the website and customer service
-        platforms.
-      </p>
-
-      <p className="max-w-2xl mx-auto text-justify mt-3">
-        Samir Motors Corporation is built on trust, transparency, and
-        reliability. As such, I am writing to inform you that our website and
-        systems are back online, and to provide you with an update on the
-        ongoing investigation and the steps we are taking to address the issue.
-      </p>
-
-      <p className="max-w-2xl mx-auto text-justify mt-3">
-        <strong>Here’s what we know so far:</strong> While our investigation is
-        ongoing, preliminary evidence indicates that an unauthorized user may
-        have gained access to our systems. As a result, certain personally
-        identifiable information might have been compromised.
-      </p>
-
-      <p className="max-w-2xl mx-auto text-justify mt-3">
-        <strong>What you can do to protect yourself:</strong> We have engaged an
-        external forensics team to thoroughly examine the extent of the
-        compromise. As a precaution, we advise our customers and partners to
-        monitor their accounts closely for any suspicious activity. If you use
-        the same password for multiple sites, we recommend that you update those
-        passwords immediately.
-      </p>
-
-      <p className="max-w-2xl mx-auto text-justify mt-3">
-        <strong>What we’re doing about it:</strong> Given the evolving nature of
-        cyber threats, we continuously work to improve our security measures. In
-        response to this incident, we are implementing several new safeguards,
-        including:
-      </p>
-
-      <div className="max-w-2xl mx-auto text-justify mt-3">
-        <li>
-          Resetting all user passwords as a security precaution on [Insert Date].
-        </li>
-        <li>
-          Reassessing our data retention practices to limit the storage of
-          sensitive information, where appropriate.
-        </li>
-        <li>
-          Enhancing our overall cyber threat detection and prevention systems.
-        </li>
-      </div>
-
-      <p className="max-w-2xl mx-auto text-justify mt-3">
-        Our customers and partners are the foundation of Samir Motors
-        Corporation, and we are fully committed to ensuring the security of your
-        information and providing the transparency you expect from us.
-      </p>
-
-      <p className="max-w-2xl mx-auto text-justify mt-3">
-        We deeply regret any inconvenience this incident has caused and
-        appreciate your patience as we worked to restore our services.
-      </p>
-
-      <p className="max-w-2xl mx-auto text-justify mt-3">
-        Thank you for your continued trust in Samir Motors Corporation.
-      </p>
-
-      <p className="max-w-2xl mx-auto text-justify mt-5">
-        Sincerely,<br />
-        [CEO Name]<br />
-        CEO, Samir Motors Corporation
-      </p>
     </div>
+    <div className="grid grid-cols-1 lg:gap-12 gap-6 mt-3 lg:mt-16">
+      <div className="max-w-[700px] h-auto py-5 pl-14 lg:pl-44 pr-4 bg-white border-2 border-[#0B2154] rounded-3xl relative">
+        <Image alt="ceo-img" src="/img/IMG_2866.jpg" className="w-20 lg:w-44 h-20 lg:h-44 rounded-full absolute -left-10 top-0 bottom-0 my-auto border-2 border-gray-300 ring-4  " width={400} height={400}/>
+        <div>
+          <h4 className="text-black text-base font-bold">Mohammad Sohel</h4>
+          <p className="mt-1 text-xs text-black font-semibold">SAMIR GROUP</p>
+        </div>
+        <div className="mt-4">
+          <p className="text-black text-sm leading-relaxed text-justify">Welcome to SM Motor Corporation, where we strive to be your trusted partner for all your automotive needs. We’re proud to offer a wide range of services, including classic car restoration, import of reconditioned cars, pre-owned vehicle sales, and 24/7 towing services. Our expert team, advanced tools, and commitment to quality ensure that every service enhances your driving experience. Thank you for choosing SM Motor Corporation—let’s journey forward together, with excellence and reliability.</p>
+        </div>
+       
+      </div>
+    </div>
+  </div>
+</div>
+
   );
 };
 
-export default EmailTemplate;
+export default CEO;

@@ -36,7 +36,7 @@ const Navbar = () => {
     <div>
       {/* Topbar - Initially Fixed */}
       <div
-        className={`bg-[#f1f5f9] p-0 transition-all duration-300 fixed top-0 w-full z-50  ${isTopbarVisible ? "block" : "hidden"
+        className={`bg-[#f1f5f9]  transition-all duration-300 fixed top-0 w-full z-50  ${isTopbarVisible ? "block" : "hidden"
           }`}
       >
         <div className="hidden lg:flex justify-between items-center px-4 sm:px-10">
@@ -83,10 +83,10 @@ const Navbar = () => {
             href={"/"}
             className="flex flex-shrink-0 title-font font-medium items-center text-gray-900 md:mb-0"
           >
-            <Image className="h-12 w-full" src="/img/logo-removebg-preview.png" alt="logo-image" width={400} height={400}/>
+            <Image className="h-12 w-56 sm:w-full" src="/img/sm-motor.png" alt="logo-image" width={400} height={400}/>
             
           </Link>
-          <p className="text-[12px] sm:text-[16px]">Samir Motor Corporation</p>
+          
          </div>
         
           {/* Navbar Links */}

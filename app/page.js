@@ -7,11 +7,11 @@ import Service from "./component/Service";
 import About from "./component/About";
 import OurService from "./component/OurService";
 import Booking from "./component/Booking";
-import TechniciansTeam from "./component/TechniciansTeam";
 import TestimonialCarousel from "./component/Testimonial";
-import CarCollecation from "./component/CarCollection";
-import JeebCollection from "./component/JeebCollection";
-import MiniTruckCollection from "./component/MiniTruckCollection";
+import CarSales from "./component/CarSales";
+import Toyota from "./component/Toyota";
+import ToyotaCorolla from "./component/ToyotaCorolla";
+
 
 
 export default function Home() {
@@ -27,12 +27,13 @@ export default function Home() {
     <Header/>
    <Service/>
    <About/>
-   <CarCollecation/>
-   <JeebCollection/>
-   <MiniTruckCollection/>
   <OurService/>
+  <CarSales/>
+  <Toyota/>
+  <ToyotaCorolla/>
   <Booking/>
-  <TechniciansTeam/>
+  
+
   <TestimonialCarousel/>
    </main>
   );

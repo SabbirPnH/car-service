@@ -47,10 +47,10 @@ export default function TestimonialCarousel() {
           <SwiperSlide>
             <div className="testimonial-item text-center mb-10 border-2 border-[#D81324]">
               <Image className=" rounded-full bg-[#f1f5f9] p-2 mx-auto mb-3" src="/img/testimonial-1.jpg" style={{ width: 80, height: 80 }} alt="Client 1" width={400} height={400} />
-              <h5 className="mb-0 text-lg text-[#0B2154] font-bold">Client Name</h5>
-              <small className='text-[#596277]'>Profession</small>
+              <h5 className="mb-0 text-lg text-[#0B2154] font-bold">Barsha</h5>
+              <small className='text-[#596277]'>Technical Support Engineer</small>
               <div className="bg-light text-center p-4">
-                <p className="mb-0 text-[#596277] text-justify">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                <p className="mb-0 text-[#596277] text-justify">Excellent service from start to finish! My car feels brand new after servicing.</p>
               </div>
             </div>
           </SwiperSlide>
@@ -58,10 +58,10 @@ export default function TestimonialCarousel() {
           <SwiperSlide>
             <div className="testimonial-item text-center border-2 border-[#D81324]">
               <Image className="bg-[#f1f5f9] rounded-full p-2 mx-auto mb-3 " src="/img/testimonial-2.jpg" style={{ width: 80, height: 80 }} alt="Client 2"  width={400} height={400}/>
-              <h5 className="mb-0 text-lg text-[#0B2154] font-bold">Client Name</h5>
-              <small className='text-[#596277]'>Profession</small>
+              <h5 className="mb-0 text-lg text-[#0B2154] font-bold">Roham imran</h5>
+              <small className='text-[#596277]'>Product Specialist</small>
               <div className="bg-light text-center p-4">
-                <p className="mb-0 text-[#596277] text-justify">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                <p className="mb-0 text-[#596277] text-justify">Professional, quick, and thorough. I trust them completely with my car’s maintenance.</p>
               </div>
             </div>
           </SwiperSlide>
@@ -69,10 +69,10 @@ export default function TestimonialCarousel() {
           <SwiperSlide>
             <div className="testimonial-item text-center border-2 border-[#D81324]">
               <Image className="bg-[#f1f5f9] rounded-full p-2 mx-auto mb-3" src="/img/testimonial-3.jpg" style={{ width: 80, height: 80 }} alt="Client 3"  width={400} height={400}/>
-              <h5 className="mb-0 text-lg text-[#0B2154] font-bold">Client Name</h5>
-              <small className='text-[#596277]'>Profession</small>
+              <h5 className="mb-0 text-lg text-[#0B2154] font-bold">Abdur Rahman</h5>
+              <small className='text-[#596277]'>Account Executive</small>
               <div className="bg-light text-center p-4">
-                <p className="mb-0 text-[#596277] text-justify">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                <p className="mb-0 text-[#596277] text-justify">The team was friendly and efficient. My car was ready ahead of schedule, and the work quality</p>
               </div>
             </div>
           </SwiperSlide>
@@ -80,10 +80,10 @@ export default function TestimonialCarousel() {
           <SwiperSlide>
             <div className="testimonial-item text-center border-2 border-[#D81324]">
               <Image className="bg-[#f1f5f9] rounded-full p-2 mx-auto mb-3" src="/img/testimonial-4.jpg" style={{ width: 80, height: 80 }} alt="Client 4"  width={400} height={400}/>
-              <h5 className="mb-0 text-lg text-[#0B2154] font-bold">Client Name</h5>
-              <small className='text-[#596277]'>Profession</small>
+              <h5 className="mb-0 text-lg text-[#0B2154] font-bold">Aarnabi</h5>
+              <small className='text-[#596277]'>Business Development Manager</small>
               <div className="bg-light text-center p-4">
-                <p className="mb-0 text-[#596277] text-justify">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                <p className="mb-0 text-[#596277] text-justify">Top-notch customer service and attention to detail. I wouldn’t go anywhere else for my car </p>
               </div>
             </div>
           </SwiperSlide>

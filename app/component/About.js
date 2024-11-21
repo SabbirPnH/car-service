@@ -17,7 +17,7 @@ const About = () => {
         <div>
           <h6 className="text-[#D81324] font-bold uppercase"> About Us </h6>
           <h1 className="mb-6 text-xl sm:text-4xl font-semibold pt-2  text-[#0B2154]">
-          Samir motors corporation.
+          SM Motors Corporation.
           </h1>
           <p className="mb-6 text-[#596277] text-justify tracking-tight">
           Samir motors is a best vehicles corporation in Bangladesh. We import all type of motors vehicles in our country. We can give best deal in all vehicles. samir motors corporation is a distributor of Digital Motors Ltd.

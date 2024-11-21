@@ -7,13 +7,13 @@ const items = [
   {
     background: "/img/banner (1).jpg",
     leftImage: "/img/carousel-1.png",
-    title: "Welcome to  Samir Motor Corporation",
+    title: "Welcome to  SM Motor Corporation",
     description: "learn more",
   },
   {
     background: "/img/banner (2).jpg",
     leftImage: "/img/carousel-2.png",
-    title: "Welcome to  Samir Motor Corporation",
+    title: "Welcome to  SM Motor Corporation",
     description: "learn more",
   },
 
